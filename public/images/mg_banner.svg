@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   preserveAspectRatio="none">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer2">
+    <path
+       id="path3723-3"
+       d="m -33.738868,71.439322 c 27.3557031,9.16525 27.3564278,9.56577 27.3564278,9.56577 0,0 38.6738952,4.74051 93.3439572,0.24223 54.670063,-4.49829 109.324913,-17.40715 169.877973,-8.29819 60.5531,9.10898 84.23025,121.580998 20.52439,96.857588 -63.70583,-24.72337 -113.67904,-14.62596 -177.3399,-14.51803 -63.660872,0.10797 -89.825322,1.75436 -132.404789,-2.97954 -42.579471,-4.73387 -1.358059,-80.869828 -1.358059,-80.869828 z"
+       style="fill:#149746;fill-opacity:1;stroke:none;stroke-width:0.27685052px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     id="layer1">
+    <path
+       id="path3723"
+       d="m -27.214285,74.094182 c 26.45833256,8.69345 26.45833256,9.07143 26.45833256,9.07143 0,0 37.41964344,4.53572 90.33630944,0.37798 52.916663,-4.15774 105.833333,-16.25298 164.419633,-7.55953 58.58631,8.69346 81.26489,113.635418 19.65475,90.200888 -61.6101,-23.43452 -109.99105,-13.98512 -171.60117,-13.98512 -61.610118,0 -86.934522,1.51191 -128.133927,-3.02381 -41.199405,-4.53571 -1.133928,-75.081838 -1.133928,-75.081838 z"
+       style="fill:#006539;fill-opacity:1;stroke:#006539;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <flowRoot
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
+       id="flowRoot4828"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4830"><rect
+           y="478.04236"
+           x="55.558392"
+           height="42.426407"
+           width="228.29448"
+           id="rect4832" /></flowRegion><flowPara
+         id="flowPara4834"></flowPara></flowRoot>  </g>
+  <g
+     id="layer4">
+    <flowRoot
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
+       id="flowRoot4808"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4810"><rect
+           y="349.75299"
+           x="90.913727"
+           height="137.38075"
+           width="614.17273"
+           id="rect4812" /></flowRegion><flowPara
+         id="flowPara4814"></flowPara></flowRoot>  </g>
+</svg>

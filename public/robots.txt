@@ -1,0 +1,11 @@
+User-agent: Googlebot-Image
+Sitemap: https://orovilledentist.com/sitemap.xml
+Dissallow: /images/icons/
+Dissallow: /images/ogd/team/old/
+Dissallow: /images/ogd/Staff_BG.jpg
+Dissallow: /images/ogd/Full_Title_Banner_alpha.png
+Dissallow: /images/ogd/OGD_Logo_Green.png
+Dissallow: /images/chatt_bott.png
+Dissallow: /images/LiveChatWidget.png
+Dissallow: /images/mg_banner.svg
+Dissallow: /images/mg_banner_text.svg

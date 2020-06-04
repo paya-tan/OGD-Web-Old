@@ -1,0 +1,185 @@
+/**
+ * apptform.scss
+ */
+:root {
+  --dark-green: #006539;
+  --mid-green: #007446;
+  --light-green: #149746; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  scroll-behavior: smooth; }
+
+.hiddenRadio {
+  display: none; }
+
+/** Appointment Form */
+input[type=text], select, textarea {
+  width: 100%;
+  margin-top: 1vh;
+  resize: vertical; }
+
+input[type=submit] {
+  background-color: var(--dark-green);
+  color: white;
+  border: none;
+  padding: 1vh;
+  margin-top: 1vh;
+  border-radius: 4px;
+  font-size: 3vh;
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  background-color: var(--mid-green); }
+
+#apptformcont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0 4px 4px 4px rgba(0, 0, 0, 0.2); }
+
+#formContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  width: 100%; }
+
+.error {
+  color: #FF0000; }
+
+#apptText {
+  grid-column: 1/1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--dark-green);
+  align-content: center;
+  justify-content: center;
+  text-align: center; }
+
+#apptForm {
+  grid-column: 2/2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh; }
+
+.apptFormRadioLabel {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #181818;
+  transition: 0.2s ease-in;
+  padding: 0.9vw; }
+
+.apptFormRadioLabel:hover {
+  color: var(--mid-green);
+  transition: 0.2s ease-in; }
+
+#cPChkY:checked ~ #cPChkYLabel,
+#cPChkN:checked ~ #cPChkNLabel {
+  color: var(--light-green);
+  transition: 0.2s ease-in; }
+  #cPChkY:checked ~ #cPChkYLabel:before,
+  #cPChkN:checked ~ #cPChkNLabel:before {
+    content: "\2713 "; }
+
+#Mondays:checked ~ div > #mondaysLabel,
+#Tuesdays:checked ~ div > #tuesdaysLabel,
+#Wednesdays:checked ~ div > #wednesdaysLabel,
+#Thursdays:checked ~ div > #thursdaysLabel,
+#Fridays:checked ~ div > #fridaysLabel {
+  color: var(--light-green);
+  transition: 0.2s ease-in; }
+  #Mondays:checked ~ div > #mondaysLabel:before,
+  #Tuesdays:checked ~ div > #tuesdaysLabel:before,
+  #Wednesdays:checked ~ div > #wednesdaysLabel:before,
+  #Thursdays:checked ~ div > #thursdaysLabel:before,
+  #Fridays:checked ~ div > #fridaysLabel:before {
+    content: "\2713 "; }
+
+#Mornings:checked ~ div > #morningsLabel,
+#Noon:checked ~ div > #noonLabel,
+#Afternoons:checked ~ div > #afternoonsLabel,
+#Evenings:checked ~ div > #eveningsLabel {
+  color: var(--light-green);
+  transition: 0.2s ease-in; }
+  #Mornings:checked ~ div > #morningsLabel:before,
+  #Noon:checked ~ div > #noonLabel:before,
+  #Afternoons:checked ~ div > #afternoonsLabel:before,
+  #Evenings:checked ~ div > #eveningsLabel:before {
+    content: "\2713 "; }
+
+#apptDayHide, #apptTimeHide {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: 0.2s ease-in; }
+
+#AnyTime:checked ~ #anyTimeLabel,
+#ChooseTime:checked ~ #chooseTimeLabel {
+  color: var(--light-green);
+  transition: 0.2s ease-in; }
+  #AnyTime:checked ~ #anyTimeLabel:before,
+  #ChooseTime:checked ~ #chooseTimeLabel:before {
+    content: "\2713 "; }
+
+#ChooseTime:checked ~ #apptTimeHide {
+  display: flex;
+  animation: fadeIn 0.3s; }
+
+#AnyDay:checked ~ #anyDayLabel,
+#ChooseDay:checked ~ #chooseDayLabel {
+  color: var(--light-green);
+  transition: 0.2s ease-in; }
+  #AnyDay:checked ~ #anyDayLabel:before,
+  #ChooseDay:checked ~ #chooseDayLabel:before {
+    content: "\2713 "; }
+
+#ChooseDay:checked ~ #apptDayHide {
+  display: flex;
+  animation: fadeIn 0.3s; }
+
+#ApptMornings:checked ~ #apptMorningsLabel,
+#ApptAfternoons:checked ~ #apptAfternoonsLabel {
+  color: var(--light-green);
+  transition: 0.2s ease-in; }
+  #ApptMornings:checked ~ #apptMorningsLabel:before,
+  #ApptAfternoons:checked ~ #apptAfternoonsLabel:before {
+    content: "\2713 "; }
+
+#Cleaning:checked ~ #cleaningLabel,
+#Check-up:checked ~ #check-upLabel,
+#Consultation:checked ~ #consultationLabel {
+  color: var(--light-green);
+  transition: 0.2s ease-in; }
+  #Cleaning:checked ~ #cleaningLabel:before,
+  #Check-up:checked ~ #check-upLabel:before,
+  #Consultation:checked ~ #consultationLabel:before {
+    content: "\2713 "; }
+
+@media screen and (max-width: 600px) {
+  #apptformcont {
+    box-shadow: unset; }
+
+  #apptText {
+    display: none; }
+
+  #OGD_Logo {
+    display: none; }
+
+  #apptForm {
+    grid-column: 1/4;
+    width: 100%;
+    font-size: 0.7em;
+    line-height: 0.95; } }
+
+/*# sourceMappingURL=apptform.css.map */

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+	<url>
+		<loc>https://www.orovilledentist.com/</loc>
+		<lastmod>2020-04-21</lastmod>
+		<changefreq>monthly</changefreq>
+
+		<image:image>
+			<image:title>OGD Office Front</image:title>
+			<image:loc>https://www.orovilledentist.com/images/ogd/office_front_cropped.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:title>OGD Team in January of 2019</image:title>
+			<image:loc>https://www.orovilledentist.com/images/ogd/candid/ogd_team_january_2019.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:title>Dr Parrott</image:title>
+			<image:loc>https://www.orovilledentist.com/images/ogd/team/DrParrott.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:title>Dr Parrott at Work</image:title>
+			<image:loc>https://www.orovilledentist.com/images/ogd/candid/DrParrottWork.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:title>Dr Parrott at Work 2</image:title>
+			<image:loc>https://www.orovilledentist.com/images/ogd/candid/DrParrottWork2.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:title>OGD Hygienists at Work</image:title>
+			<image:loc>https://www.orovilledentist.com/images/ogd/candid/HygeneWork1.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:title>OGD Staff - Old</image:title>
+			<image:loc>https://www.orovilledentist.com/images/ogd/candid/StaffCandid.jpg</image:loc>
+		</image:image>
+
+	</url>
+
+</urlset>
